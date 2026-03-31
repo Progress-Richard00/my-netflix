@@ -1,0 +1,123 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    
+    background: #000;
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* NAVBAR */
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 40px;
+    /* background: black; */
+}
+
+.logo{
+    color: red;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+nav ul{
+    display: flex;
+    gap: 20px;
+    list-style: none;
+}
+
+nav ul li{
+    cursor: pointer;
+}
+
+.my-n{
+    background: #333;
+    padding: 6px 12px;
+    border-radius: 20px;
+}
+
+/* HERO SECTION */
+.top-section{
+    background-position: top;
+    height: 80vh;
+    background: linear-gradient(to left, rgba(14, 8, 8, 0.922, rgba(79, 59, 59, 0.553)));
+    background: url('https://mir-s3-cdn-cf.behance.net/project_modules/1400/92fdd474219763.60db29a155659.jpg');
+    overflow: hidden;
+    background-size: cover;
+    background-repeat: no-repeat;
+    object-fit: contain; 
+    align-items: center;
+    
+}
+
+.content .play{
+    width: 120px;
+    padding: 15px;
+
+}
+ section h2{
+    margin-top: 44px;
+    
+ }
+
+/* .top-section p{
+    margin-top: 100px;
+} */
+
+.top-section .content{
+    padding-left: 15px;
+    margin-top: 390px;
+}
+
+/* .top-section .content{
+    height: 60vh;
+    padding-left: 200px;
+    
+    background-repeat: no-repeat;
+} */
+
+.content h1{
+    font-size: 40px;
+    margin: 10px 0;
+}
+
+.small-text{
+    font-size: 14px;
+    color: #b37171;
+}
+.subtitle{
+    color: #bd7a7a;
+}
+
+/* MOVIE ROW */
+.movie-section{
+    padding: 10px 25px;
+    
+}
+
+.movie-row{
+    display: flex;
+    gap: 15px;
+    overflow-x: auto;
+    /* padding: 5px; */
+    scrollbar-width: none;
+  
+}
+
+.movie-row img{
+    width: 150px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: transform 0.3s;
+   
+}
+
+.movie-row img:hover{
+    transform: scale(1.1);
+}
