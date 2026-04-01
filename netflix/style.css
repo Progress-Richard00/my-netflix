@@ -55,15 +55,36 @@ nav ul li{
     align-items: center;
     
 }
+.content{
+    margin-left: 12px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 15px;
+    border: none;
+    cursor: pointer;
+
+}
 
 .content .play{
     width: 120px;
     padding: 15px;
+    border-radius: 10px;
+    background: white;
+    color: #000;
+}
 
+.info{
+    width: 120px;
+    padding: 15px;
+}
+
+button:hover{
+    opacity: 0.8;
 }
  section h2{
-    margin-top: 44px;
-    
+    margin-top: 0px;
+    margin-bottom: 5px;
  }
 
 /* .top-section p{
